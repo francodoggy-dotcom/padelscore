@@ -113,7 +113,11 @@
 
     <script>
         // REMPLACE PAR TON URL FIREBASE
-        const FIREBASE_URL = 'https://ton-projet.firebaseio.com';
+        const FIREBASE_URL = '
+https://padescore-default-rtdb.europe-west1.firebasedatabase.app/
+:
+null
+';
         
         // Afficher le score
         function getPointsDisplay(pts1, pts2, team) {
@@ -190,4 +194,5 @@
         fetchScore();
     </script>
 </body>
+
 </html>
